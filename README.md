@@ -1,5 +1,7 @@
 # Illyasen's Periodic Table Search App
 
+![Periodic Table](./img/periodic-table-ref.png)
+
 Another chapter in the Javascript Journey
 
 Searching an Element in the Periodic Table via Atomic Number
