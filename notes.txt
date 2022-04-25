@@ -1,0 +1,20 @@
+Search By Name
+html {
+    <br>
+    <input type="text" name="atmc-name" id="atmc-name" placeholder="Element Name...">
+    <button id="atmcNumber-btn">Search Names</button>
+}
+css {
+    #atmc-name
+    #atmcName-btn
+    #atmcName-btn:hover
+}
+js{
+    // Code like periodicTableNumber but search by name
+}
+API{
+    Search By Number: https://neelpatel05.pythonanywhere.com/element/atomicnumber?atomicnumber=1
+    Search By Name: https://neelpatel05.pythonanywhere.com/element/atomicname?atomicname=Mercury
+    Creator of the API: https://github.com/neelpatel05
+    Github API: https://github.com/neelpatel05/periodic-table-api
+}

@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap');
+:root {
+  --dark-color: #000000;
+  --light-color: #ffffff;
+
+    /* Element Colors */
+    --alkali-metal: #ff00ff;
+    --alkaline-earthmetal: #afeeee;
+    --transition-metal: #dcdcdc;
+    --metal-elem: #87ceeb;
+    --halogen-elem: #32cd32;
+    --nolble-gas: #8ab9f1;
+    --lanthanoid-elem: #fbcce7;
+    --actinoid-elem: #deb887;
+    --nonmetal-elem: #ffd700;
+    --metalloid-elem: #fddde6;
+    --post-transition-metal: #ffa07a;
+
+    /* Font */
+    --playfair-display: 'Playfair Display', serif
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.main-content {
+  border: 1px solid var(--dark-color);
+  background-color: #f8f8ff;
+  margin: 3rem;
+  padding: 2rem;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  color: #555d50;
+  font-family: var(--playfair-display);
+}
+.search-detail-section {
+  padding: 2rem;
+  width: 40%;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  gap: 1rem;
+}
+.app-title{
+    color: var(--dark-color);
+}
+#atmc-number{
+    text-align: center;
+    width: 35%;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+#atmcNumber-btn{
+    padding: 0.30rem 1rem;
+    border: 1px solid black;
+    background-color: #ffffff;
+    border-radius: 25px;
+    cursor: pointer;
+    margin-bottom: 1rem;
+}
+#atmcNumber-btn:hover{
+    background-color: var(--dark-color);
+    color: var(--light-color);
+}
+
+.element-details{
+    border: 1px solid black;
+    color: #000000;
+    background-color: #ffffff;
+    padding: 1rem;
+    text-align: center;
+}
+
+.element-card-section {
+  padding: 2rem;
+  width: 50%;
+}
+.element-card {
+  width: 50%;
+  height: 100%;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  /* background-color: var(--nonmetal-elem); */
+  color: var(--dark-color);
+}
+.atmc-symbol-card {
+  font-size: 65px;
+}
+.atmc-number-card,
+atmc-mass-card,
+atmc-name-card {
+  font-size: 35px;
+}
