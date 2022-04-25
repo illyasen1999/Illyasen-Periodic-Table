@@ -26,6 +26,6 @@ Creator of the Periodic Table API
 [neelpatel05](https://github.com/neelpatel05)
 
 ## Reference
-![Periodic Table](./img/periodic-table-ref.png)
+![Periodic Table](./img/ptable.jpg)
 
 
