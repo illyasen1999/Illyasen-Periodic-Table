@@ -1,7 +1,5 @@
 # Illyasen's Periodic Table Search App
 
-![Periodic Table](./img/periodic-table-ref.png)
-
 Another chapter in the Javascript Journey
 
 Searching an Element in the Periodic Table via Atomic Number
@@ -26,5 +24,8 @@ Searching an Element in the Periodic Table via Atomic Number
 Creator of the Periodic Table API
 
 [neelpatel05](https://github.com/neelpatel05)
+
+## Reference
+![Periodic Table](./img/periodic-table-ref.png)
 
 
